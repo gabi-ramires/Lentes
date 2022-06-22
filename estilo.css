@@ -1,0 +1,190 @@
+.footer {
+    text-align: center;
+    background: gray;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footer a{
+    
+    color:white;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.tudo{
+   
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    background: rgb(216, 213, 213);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(12, 12, 12);
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  
+}
+.titulo{
+    color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+}
+
+h3{
+    color:rgb(51, 51, 51);
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    text-align: justify;
+    padding: 5px;
+
+}
+
+.coluna{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.caixa{
+    
+    display: block;
+    
+    text-align: center;
+}
+
+label{
+    
+    color:black;
+    width: 50%;
+    display: inline-block;
+    padding: 5px;
+    text-align: end;
+}
+
+input{
+    
+    outline: none;
+    display:inline;
+    width: 60px;
+    padding: 4px;
+    text-align: center;
+}
+
+.botao{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    cursor:pointer;
+    background-color: rgb(18, 88, 18);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.botao:hover{
+    filter:brightness(1.3);
+}
+
+.btn{
+    text-align: center;  
+}
+
+.botao.desabilitado{
+    background: gray;
+    cursor:auto;
+    filter: brightness(1);
+}
+
+.caixote{
+    display: block;
+    justify-content: center;
+
+}
+
+.resultado{
+    text-align: center;
+    color:rgb(6, 144, 179);
+    font-size: 20px;
+    font-weight: bolder;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216, 213, 213);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(12, 12, 12);
+    margin-bottom: 8px;
+    
+}
+
+#aviso{
+    text-align: center;
+    color: red;
+    margin-bottom: 8px;
+    margin-top: 10px;
+   
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.campo.Vermelho{
+    border: 1px solid red;
+    color: red;
+}
+
+.campo.Normal{
+    border:1px solid rgb(71, 71, 71);
+    color: black;
+}
+
+.campo{
+    border:1px solid rgb(71, 71, 71);
+    color: black;
+}
+
+#contador{
+
+    text-align: center;
+    color:white;
+    font-size: 14px;
+}
+
+.instrucoes{
+    position:fixed;
+    bottom: 30px;
+    right: 20px;
+    background: rgb(216, 213, 213);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.paragrafo{
+    padding: 10px;
+}

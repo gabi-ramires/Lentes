@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="icone.ico" />
+    <title>Lentes</title>
+
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+        }
+        body{
+            height: 100vh;
+            background: linear-gradient(#121212, #212b46);
+            
+        }
+      
+    </style>
+</head>
+<body>
+    
+
+
+<div class="tudo">
+    <div class="titulo">
+        <h2>Seleção de lente</h2>
+    </div>
+
+
+    <div class="container">
+        <div class="coluna">
+            <h3>Grau esférico</h3>
+            <p style="color:black">O "esférico" significa que a correção necessária é a mesma em todo o globo ocular. Se estiver acompanhada do sinal menos (-), significa que você tem miopia. Se tiver o sinal mais (+) ou nenhum sinal, você tem hipermetropia.</p><br><br>
+
+            <div class="caixa">
+            <label for="GED">Grau esférico direito:</label>
+            <input id="GED" class="campo" type="number" value="0" min="-15" max="0" required step="0.25" onkeyup="VerificarGED()" ><br>
+            <label for="GEE">Grau esférico esquerdo:</label>
+            <input id="GEE" class="campo" type="number" value="0" min="-15" max="0" required step="0.25" onkeyup="VerificarGEE()" >
+            </div>
+
+
+        </div>
+
+        <div class="coluna">
+            <h3>Grau cilíndrico</h3>
+            <p style="color:black">O "cilíndrico" indica se você possui astigmatismo. Diferente da esférica, neste caso, o olho apresenta um formato irregular. Com isso, sua visão possui diversos pontos focais. Dependendo do grau, sua lente pode ser mais ou menos espessa.</p><br><br>
+
+            <div class="caixa">
+                <label for="GCD">Grau cilíndrico direito:</label>
+                <input id="GCD" class="campo" type="number" value="0" min="-15" max="0" required step="0.25" onkeyup="VerificarGCD()"><br>
+                <label for="GCE">Grau cilíndrico esquerdo:</label>
+                <input id="GCE" class="campo" type="number" value="0" min="-15" max="0" required step="0.25" onkeyup="VerificarGCE()">
+                </div>
+        </div>
+
+    </div>
+ <div id="aviso">
+
+ </div>   
+</div>  
+
+ 
+<div class="btn">
+<button id="botaoID" class="botao" onclick=Mostrar()&Limpar() >Pronto</button>
+ </div>
+
+
+ <div class="caixote" >
+    <div id="contador">
+
+    </div>
+
+    <main id="area" class="resultado" >
+
+    </main>
+    
+</div>
+
+<div class="instrucoes">
+    <a href="instrucoes.html" onclick="window.open(this.href, this.target,  'width=530,height=220,top=200,left=1800'); return false;">Instruções</a>
+</div>
+
+
+<footer class="footer">Desenvolvido por: Gabriela Ramires | Para mais aplicações: <a href="https://portfolio-gabi.herokuapp.com/">www.portfolio-gabi.herokuapp.com</footer>
+<script src="logica.js"></script>    
+</body>
+</html>
