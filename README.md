@@ -1,6 +1,6 @@
 # Lentes
 
-Link: https://listatarefasgabi.herokuapp.com/
+Link: https://lentes.herokuapp.com/
 
 Instruções:
 
