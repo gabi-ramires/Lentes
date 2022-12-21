@@ -1,6 +1,6 @@
 # Lentes
 
-Link: https://lentes.epizy.com/
+Link: http://lentes.epizy.com/
 
 Instruções:
 
