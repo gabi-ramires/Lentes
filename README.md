@@ -1,6 +1,6 @@
 # Lentes
 
-Link: https://lentes.herokuapp.com/
+Link: https://lentes.epizy.com/
 
 Instruções:
 
